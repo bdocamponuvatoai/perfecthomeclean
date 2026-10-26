@@ -1,0 +1,25 @@
+.help-block {
+  margin-top: 45px;
+  padding: 35px;
+  background: #edf3e4;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.help-block h3 {
+  font-size: 24px;
+}
+@media (max-width: 740px) {
+  .help-block {
+    display: block;
+    padding: 30px 25px;
+  }
+  .help-block h3 {
+    font-size: 26px;
+  }
+  .help-block .button {
+    margin-top: 25px;
+  }
+}

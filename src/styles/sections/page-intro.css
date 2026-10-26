@@ -1,0 +1,54 @@
+.page-intro {
+  padding-top: 75px;
+  padding-bottom: 60px;
+}
+.page-intro h1 {
+  max-width: 1100px;
+}
+.page-intro h1 > span {
+  font-family: var(--serif);
+  font-style: italic;
+  color: #5e7c4d;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+.page-intro > p {
+  font-size: 14px;
+  max-width: 550px;
+  line-height: 1.9;
+  margin-top: 28px;
+}
+@media (max-width: 950px) {
+  .page-intro {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+  .page-intro h1 {
+    font-size: 64px;
+    letter-spacing: -3px;
+  }
+}
+@media (max-width: 740px) {
+  .page-intro {
+    padding-top: 45px;
+    padding-bottom: 40px;
+  }
+  .page-intro h1 {
+    font-size: 49px;
+    letter-spacing: -2.6px;
+  }
+  .page-intro > p {
+    font-size: 13px;
+    line-height: 1.9;
+    margin-top: 22px;
+  }
+  .page-intro h1 > span {
+    letter-spacing: -1.6px;
+  }
+}
+@media (max-width: 390px) {
+  .page-intro h1 {
+    font-size: 43px;
+    letter-spacing: -2.4px;
+  }
+}

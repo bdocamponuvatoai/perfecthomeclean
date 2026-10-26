@@ -1,0 +1,13 @@
+:root {
+  --ink: #253b2d;
+  --green: #3d6b3b;
+  --accent: #d4edb4;
+  --pale: #f1f5eb;
+  --cream: #fbfbf6;
+  --muted: #626d5f;
+  --line: #dfe5d8;
+  --peach: #f3e7d5;
+  --serif: Georgia, "Times New Roman", serif;
+  --font-body: var(--font-inter), Arial, sans-serif;
+  --font-display: var(--font-manrope), Arial, sans-serif;
+}

@@ -1,0 +1,43 @@
+.mobile-bottom {
+  display: none;
+}
+@media (max-width: 740px) {
+  .mobile-bottom {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: #fbfbf6ed;
+    backdrop-filter: blur(16px);
+    border-top: 1px solid #dfe8d3;
+    z-index: 35;
+    gap: 12px;
+    align-items: center;
+    padding-bottom: max(10px, env(safe-area-inset-bottom));
+  }
+  .mobile-bottom .button {
+    flex: 1;
+    min-height: 44px;
+    font-size: 11px;
+    padding: 12px 20px;
+    gap: 30px;
+  }
+  .mobile-bottom > a:last-child {
+    height: 44px;
+    width: 44px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #ccd9bc;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .mobile-bottom > a:last-child svg {
+    width: 18px;
+    height: 18px;
+  }
+  body {
+    padding-bottom: 70px;
+  }
+}

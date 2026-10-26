@@ -1,0 +1,18 @@
+.faq-page {
+  max-width: 850px;
+}
+.faq-page summary {
+  font-size: 15px;
+  padding: 27px 0;
+}
+.faq-page .answer p {
+  font-size: 13px;
+}
+@media (max-width: 740px) {
+  .faq-page summary {
+    font-size: 13px;
+  }
+  .faq-page .answer p {
+    font-size: 12px;
+  }
+}

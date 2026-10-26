@@ -1,0 +1,137 @@
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: start;
+}
+.contact-main {
+  padding-top: 25px;
+}
+.big-phone {
+  font: 500 43px/1.2 var(--font-display);
+  letter-spacing: -2px;
+}
+.contact-main > p {
+  font-size: 12px;
+  margin: 20px 0 40px;
+}
+.contact-detail {
+  border-top: 1px solid var(--line);
+  padding: 30px 0;
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+.contact-detail > span {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #eaf1df;
+  flex-shrink: 0;
+}
+.contact-detail svg {
+  width: 19px;
+  height: 19px;
+}
+.contact-detail h3 {
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+.contact-detail p {
+  font-size: 13px;
+  margin: 0;
+}
+.contact-detail a:not(.text-link) {
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.contact-card {
+  background: #eef3e7;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.contact-card > img {
+  width: 100%;
+  height: 300px;
+}
+.contact-card > div {
+  padding: 35px 40px;
+}
+.contact-card h2 {
+  font-size: 37px;
+}
+.contact-card p {
+  font-size: 12px;
+}
+.contact-card .button {
+  margin-top: 25px;
+}
+@media (max-width: 1200px) {
+  .contact-layout {
+    gap: 60px;
+  }
+  .big-phone {
+    font-size: 37px;
+  }
+  .contact-detail a:not(.text-link) {
+    font-size: 11px;
+  }
+}
+@media (max-width: 950px) {
+  .contact-layout {
+    gap: 45px;
+  }
+  .big-phone {
+    font-size: 32px;
+  }
+  .contact-detail {
+    gap: 18px;
+  }
+  .contact-card > div {
+    padding: 25px;
+  }
+  .contact-card h2 {
+    font-size: 32px;
+  }
+  .contact-card .button {
+    font-size: 10px;
+    gap: 15px;
+  }
+}
+@media (max-width: 740px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+  .contact-main {
+    padding-top: 10px;
+  }
+  .big-phone {
+    font-size: 38px;
+  }
+  .contact-detail a:not(.text-link) {
+    font-size: 12px;
+  }
+  .contact-card > div {
+    padding: 30px;
+  }
+  .contact-card h2 {
+    font-size: 34px;
+  }
+  .contact-card .button {
+    font-size: 10px;
+  }
+  .contact-card > img {
+    height: 260px;
+  }
+}
+@media (max-width: 390px) {
+  .contact-detail a:not(.text-link) {
+    font-size: 11px;
+  }
+  .big-phone {
+    font-size: 33px;
+  }
+}
