@@ -129,4 +129,4 @@ policy, HSTS). Set `SITE_INDEXABLE=false` for Preview; set `SITE_URL` and, after
 
 `out/` also works on any static host that serves directory `index.html` files and `404.html`.
 
-Preview deployment: _to be added after the first Vercel deploy._
+Preview deployment: <https://perfecthomeclean.vercel.app/> (noindex; production branch `main`).
